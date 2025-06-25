@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trasformazione.xsl"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La rassegna settimanale</title>
+        <title type="sub">di politica, scienze, lettere ed arti</title>
+        <author>
+          <persName xml:id="LF" ref="https://it.wikipedia.org/wiki/Leopoldo_Franchetti">Leopoldo Franchetti</persName>
+          <persName xml:id="SS" ref="https://it.wikipedia.org/wiki/Sidney_Sonnino">Sidney Sonnino</persName>
+        </author>
+      </titleStmt>
+      
+      <editionStmt>
+        <edition>Edizione digitale image-based - <date when="06-2025">Giugno 2025</date></edition>
+        <respStmt>
+          <resp>Docente del corso: </resp>
+          <persName xml:id="AMDG">Angelo Mario Del Grosso</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Codificato da: </resp>
+          <persName xml:id="DN">Daniele Nicotra</persName>
+        </respStmt>
+      </editionStmt>
+      
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <date when="2025">2025</date>
+        <availability status="free"><p>Accesso libero su Github</p></availability>
+      </publicationStmt>
+      
+      <seriesStmt>
+        <title type="main">La rassegna settimanale</title>
+        <title type="sub">di politica, scienze, lettere ed arti</title>
+        <respStmt>
+          <resp>Codificato da: </resp>
+          <name ref="#DN">Daniele Nicotra</name>
+        </respStmt>
+        <biblScope unit="volume">6</biblScope>
+        <biblScope unit="issue">139, 141</biblScope>
+        <biblScope unit="page">132, 133, 142, 167, 168, 175, 176</biblScope>
+      </seriesStmt>
+      
+      <sourceDesc>
+        <biblStruct xml:lang="it">
+          <monogr>
+            <title level="j" type="main">La rassegna settimanale</title>
+            <title level="j" type="sub">di politica, scienze, lettere ed arti</title>
+            <imprint>
+              <pubPlace>Roma</pubPlace>
+              <publisher ref="https://it.wikipedia.org/wiki/Casa_Editrice_Barbèra">Casa Editrice Barbèra</publisher>
+              <date when="1878">1878</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <msDesc>
+          <msIdentifier><msName>La rassegna settimanale, 1878</msName></msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper" source="https://rassegnasettimanale.animi.it/">
+                <support>Fogli di <material>carta</material> digitalizzati</support>
+                <condition>Pagine integre e chiaramente leggibili, piccole macchie occasionali sulla superficie dei fogli.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  Pagine divise in due colonne, lunghe mediamente 67 righe.
+                  Nelle pagine pari si trova la numerazione sul lato sinistro e le informazioni su volume e fascicolo sul lato destro.
+                  Nelle pagine dispari si trova la data sul lato sinistro e la numerazione sul lato destro.
+                  Nella parte superiore centrale di ogni pagina è presente la dicitura: <rs type="runningHead">LA RASSEGNA SETTIMANALE</rs>.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl xml:id="SSL">
+            <author>Alfredo Reumont</author>
+            <title>Saggi di storia e letteratura</title>
+          </bibl>
+          <bibl xml:id="MVI">
+            <author>Alfredo Reumont</author>
+            <title>Monte di Venere in Italia</title>
+          </bibl>
+          <bibl xml:id="MG">
+            <author>Alfredo Reumont</author>
+            <title>Milton e Galileo</title>
+          </bibl>
+          <bibl xml:id="RLIG">
+            <author>Alfredo Reumont</author>
+            <title>Delle relazioni fra la letteratura italiana e quella di Germania nel seicento</title>
+          </bibl>
+          <bibl xml:id="ADC">
+            <author>Alfredo Reumont</author>
+            <title>Dè soci esteri dell'Accademia della Crusca</title>
+          </bibl>
+          <bibl xml:id="JU">
+            <author>Giosuè Carducci</author>
+            <title>Juvenilia</title>
+          </bibl>
+          <bibl xml:id="PE">
+            <author>Giosuè Carducci</author>
+            <title>Primavere Elleniche</title>
+          </bibl>
+          <bibl xml:id="OB">
+            <author>Giosuè Carducci</author>
+            <title>Odi Barbare</title>
+          </bibl>
+          <bibl xml:id="DE">
+            <author>Giosuè Carducci</author>
+            <title>Decennalia</title>
+          </bibl>
+          <bibl xml:id="LG">
+            <author>Giosuè Carducci</author>
+            <title>Levia Gravia</title>
+          </bibl>
+          <bibl xml:id="SSU">
+            <author>Giorgio Bancroft</author>
+            <title>Storia degli Stati Uniti</title>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    
+    <encodingDesc>
+      <projectDesc>
+        <p>Il progetto prevede la codifica di due articoli, due entrate della sezione bibliografia e due entrate della sezione notizie de "La rassegna settimanale di politica, scienze, lettere ed arti".</p>
+        <p>Elementi selezionati:
+          <ref target="#paola">Corrispondenza da Paola. L'emigrazione.</ref>
+          <ref target="#biblPaola">Estratto dalla bibliografia del volume 6, fascicolo 139.</ref>
+          <ref target="#prato">Corrispondenza da Prato. A proposito della legge sul lavoro dei fanciulli.</ref>
+          <ref target="#biblPrato">Estratto dalla bibliografia del volume 6, fascicolo 141.</ref>
+          <ref target="#not">Estratti dalle notizie del volume 6, fascicolo 141.</ref>
+        </p>
+      </projectDesc>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textDesc>
+        <channel mode="w">Rivista letteraria e politica settimanale</channel>
+        <constitution type="composite"/>
+				<derivation type="original"/>
+        <domain type="news"/>
+        <factuality type="mixed"/>
+        <interaction type="partial"/>
+        <preparedness type="prepared"/>
+        <purpose type="inform" degree="high"/>
+        <purpose type="entertain" degree="medium"/>
+      </textDesc>
+      
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName xml:id="BAR" ref="https://it.wikipedia.org/wiki/Gaspero_Barbera">Gaspero Barbèra</persName>
+          </person>
+          <!--persone in "Corrispondenza da Paola. L'emigrazione"-->
+          <person>
+            <persName xml:id="PA">Paola</persName>
+          </person>
+          <!--persone in "Estratto dalla bibliografia del volume 6, fascicolo 139"-->
+          <person>
+            <persName xml:id="AR" ref="https://it.wikipedia.org/wiki/Alfred_von_Reumont">Alfredo Reumont</persName>
+          </person>
+          <person>
+            <persName xml:id="MDB" ref="https://it.wikipedia.org/wiki/Marc_de_Beauvau,_principe_di_Craon">Marc de Beauvau</persName>
+          </person>
+          <person>
+            <persName xml:id="AMDL">Anne Marguerite de Lignéville</persName>
+          </person>
+          <person>
+            <persName xml:id="PL" ref="https://it.wikipedia.org/wiki/Leopoldo_II_d'Asburgo-Lorena">Pietro Leopoldo</persName>
+          </person>
+          <person>
+            <persName xml:id="G2" ref="https://it.wikipedia.org/wiki/Giuseppe_II_d'Asburgo-Lorena">Giuseppe II</persName>
+          </person>
+          <person>
+            <persName xml:id="FM" ref="https://it.wikipedia.org/wiki/Federico_Manfredini_(politico)">Federico Manfredini</persName>
+          </person>
+          <!--persone in "Estratto dalla bibliografia del volume 6, fascicolo 141"-->
+          <person>
+            <persName xml:id="GC" ref="https://it.wikipedia.org/wiki/Giosuè_Carducci">Giosuè Carducci</persName>
+          </person>
+          <person>
+            <persName xml:id="FE" ref="https://it.wikipedia.org/wiki/Apollo">Febo</persName>
+          </person>
+          <!--persone in "Estratti dalle notizie del volume 6, fascicolo 141"-->
+          <person>
+            <persName xml:id="GB">Giorgio Bancroft</persName>
+          </person>
+          <person>
+            <persName xml:id="AS" ref="https://it.wikipedia.org/wiki/Algernon_Swinburne">Algernon Swinburne</persName>
+          </person>
+          <person>
+            <persName xml:id="WSL" ref="https://it.wikipedia.org/wiki/Walter_Savage_Landor">Walter Savage Landor</persName>
+          </person>
+        </listPerson>
+        
+        <listOrg>
+          <org xml:id="CEB">
+            <orgName ref="https://it.wikipedia.org/wiki/Casa_Editrice_Barbèra">Casa Editrice Barbèra</orgName>
+          </org>
+          <org xml:id="ZA">
+            <orgName ref="https://it.wikipedia.org/wiki/Zanichelli">Zanichelli</orgName>
+          </org>
+          <!--organizzazioni in "Corrispondenza da Paola. L'emigrazione"-->
+          <org xml:id="AMC">
+            <orgName>Associazione di mutuo credito</orgName>
+          </org>
+          <org xml:id="SDT">
+            <orgName>Società dei trasporti</orgName>
+          </org>
+          <!--organizzazioni in "Corrispondenza da Prato. A proposito della legge sul lavoro dei fanciulli"-->
+          <org xml:id="ST">
+            <orgName ref="https://it.wikipedia.org/wiki/Regno_d'Italia_(1861-1946)">Stato italiano</orgName>
+          </org>
+          <org xml:id="DP">
+            <orgName ref="https://it.wikipedia.org/wiki/Deputazione_provinciale">Deputazione provinciale</orgName>
+          </org>
+          <org xml:id="CS">
+            <orgName>Consiglio sanitario</orgName>
+          </org>
+          <org xml:id="CDC">
+            <orgName ref="https://it.wikipedia.org/wiki/Camera_di_commercio">Camera di commercio</orgName>
+          </org>
+          <org xml:id="MAIC">
+            <orgName>Ministero d'Agricoltura, Industria e Commercio</orgName>
+          </org>
+        </listOrg>
+      </particDesc>
+      
+      <settingDesc>
+        <listPlace>
+          <place xml:id="AM">
+            <placeName ref="https://it.wikipedia.org/wiki/America">America</placeName>
+          </place>
+          <place xml:id="BA">
+            <placeName ref="https://it.wikipedia.org/wiki/Basilicata">Basilicata</placeName>
+            <country>Italia</country>
+          </place>
+          <place xml:id="NA">
+            <placeName ref="https://it.wikipedia.org/wiki/Napoli">Napoli</placeName>
+            <region>Campania</region>
+          </place>
+          <place xml:id="GE">
+            <placeName ref="https://it.wikipedia.org/wiki/Germania">Germania</placeName>
+          </place>
+          <place xml:id="IT">
+            <placeName ref="https://it.wikipedia.org/wiki/Italia">Italia</placeName>
+          </place>
+          <place xml:id="TO">
+            <placeName ref="https://it.wikipedia.org/wiki/Toscana">Toscana</placeName>
+            <country>Italia</country>
+          </place>
+          <place xml:id="GI">
+            <placeName ref="https://it.wikipedia.org/wiki/Agrigento">Girgenti</placeName>
+            <region>Sicilia</region>
+          </place>
+          <place xml:id="CA">
+            <placeName ref="https://it.wikipedia.org/wiki/Caltanissetta">Caltanissetta</placeName>
+            <region>Sicilia</region>
+          </place>
+          <place xml:id="PR">
+            <placeName ref="https://it.wikipedia.org/wiki/Prato_(Italia)">Prato</placeName>
+            <region>Toscana</region>
+          </place>
+          <place xml:id="LO">
+            <placeName ref="https://it.wikipedia.org/wiki/Lombardia">Lombardia</placeName>
+            <country>Italia</country>
+          </place>
+          <place xml:id="WA">
+            <placeName ref="https://it.wikipedia.org/wiki/Washington">Washington</placeName>
+            <country>Stati Uniti d'America</country>
+          </place>
+          <place xml:id="FI">
+            <placeName ref="https://it.wikipedia.org/wiki/Firenze">Firenze</placeName>
+            <region>Toscana</region>
+          </place>
+          <place xml:id="CR">
+            <placeName ref="https://it.wikipedia.org/wiki/Craon_(Mayenne)">Craon</placeName>
+            <country>Francia</country>
+          </place>
+          <place xml:id="BO">
+            <placeName ref="https://it.wikipedia.org/wiki/Bologna">Bologna</placeName>
+            <region>Emilia-Romagna</region>
+          </place>
+        </listPlace>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  
+  <facsimile>
+  
+    <surface xml:id="pagina01_paola"> <!--Corrispondenza da Paola. L'emigrazione-->
+      <graphic url='./img/pagina01.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="78" uly="163" lrx="313" lry="179" xml:id="id1_1paola"/>
+      <zone ulx="75" uly="183" lrx="315" lry="247" xml:id="id1_2paola"/>
+      <zone ulx="76" uly="252" lrx="319" lry="394" xml:id="id1_3paola"/>
+      <zone ulx="75" uly="398" lrx="315" lry="646" xml:id="id1_4paola"/>
+      <zone ulx="75" uly="649" lrx="316" lry="827" xml:id="id1_5paola"/>
+      <zone ulx="332" uly="68" lrx="578" lry="382" xml:id="id1_6paola"/>
+      <zone ulx="335" uly="386" lrx="579" lry="508" xml:id="id1_7paola"/>
+      <zone ulx="336" uly="511" lrx="577" lry="745" xml:id="id1_8paola"/>
+      <zone ulx="335" uly="749" lrx="577" lry="827" xml:id="id1_9paola"/>
+    </surface>
+
+    <surface xml:id="pagina02">
+      <graphic url='./img/pagina02.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="27" uly="68" lrx="287" lry="242" xml:id="id2_1paola"/>
+      <zone ulx="31" uly="245" lrx="287" lry="416" xml:id="id2_2paola"/>
+      <zone ulx="29" uly="418" lrx="285" lry="591" xml:id="id2_3paola"/>
+      <zone ulx="31" uly="594" lrx="282" lry="808" xml:id="id2_4paola"/>
+      <zone ulx="31" uly="813" lrx="288" lry="848" xml:id="id2_5paola"/>
+      <zone ulx="299" uly="71" lrx="559" lry="322" xml:id="id2_6paola"/>
+      <zone ulx="301" uly="324" lrx="561" lry="405" xml:id="id2_7paola"/>
+    </surface>
+
+    <surface xml:id="pagina03_biblPaola"> <!--Estratto dalla bibliografia del volume 6, fascicolo 139-->
+      <graphic url='./img/pagina03.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="56" uly="289" lrx="290" lry="302" xml:id="id3_1biblPaola"/>
+      <zone ulx="43" uly="305" lrx="304" lry="325" xml:id="id3_2biblPaola"/>
+      <zone ulx="43" uly="331" lrx="304" lry="494" xml:id="id3_3biblPaola"/>
+      <zone ulx="43" uly="497" lrx="304" lry="625" xml:id="id3_4biblPaola"/>
+      <zone ulx="42" uly="629" lrx="299" lry="755" xml:id="id3_5biblPaola"/>
+    </surface>
+
+    <surface xml:id="pagina04_prato"> <!--Corrispondenza da Prato. A proposito della legge sul lavoro dei fanciulli-->
+      <graphic url='./img/pagina04.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="314" uly="46" lrx="558" lry="70" xml:id="id4_1prato"/>
+      <zone ulx="317" uly="74" lrx="560" lry="118" xml:id="id4_2prato"/>
+      <zone ulx="310" uly="125" lrx="563" lry="214" xml:id="id4_3prato"/>
+      <zone ulx="312" uly="218" lrx="559" lry="353" xml:id="id4_4prato"/>
+      <zone ulx="315" uly="358" lrx="559" lry="424" xml:id="id4_5prato"/>
+      <zone ulx="312" uly="429" lrx="560" lry="539" xml:id="id4_6prato"/>
+      <zone ulx="312" uly="546" lrx="557" lry="646" xml:id="id4_7prato"/>
+      <zone ulx="312" uly="650" lrx="559" lry="702" xml:id="id4_8prato"/>
+      <zone ulx="313" uly="709" lrx="564" lry="729" xml:id="id4_9prato"/>
+      <zone ulx="312" uly="736" lrx="566" lry="830" xml:id="id4_10prato"/>
+    </surface>
+
+    <surface xml:id="pagina05">
+      <graphic url='./img/pagina05.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="51" uly="49" lrx="305" lry="155" xml:id="id5_1prato"/>
+      <zone ulx="53" uly="159" lrx="305" lry="236" xml:id="id5_2prato"/>
+      <zone ulx="55" uly="239" lrx="304" lry="327" xml:id="id5_3prato"/>
+      <zone ulx="56" uly="336" lrx="307" lry="551" xml:id="id5_4prato"/>
+    </surface>
+
+    <surface xml:id="pagina06_biblPrato"> <!--Estratto dalla bibliografia del volume 6, fascicolo 141-->
+      <graphic url='./img/pagina06.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="48" uly="311" lrx="293" lry="323" xml:id="id6_1biblPrato"/>
+      <zone ulx="39" uly="327" lrx="301" lry="344" xml:id="id6_2biblPrato"/>
+      <zone ulx="44" uly="351" lrx="301" lry="499" xml:id="id6_3biblPrato"/>
+      <zone ulx="43" uly="505" lrx="307" lry="572" xml:id="id6_4biblPrato"/>
+      <zone ulx="45" uly="575" lrx="301" lry="594" xml:id="id6_5biblPrato"/>
+    </surface>
+
+    <surface xml:id="pagina07_not"> <!--Estratti dalle notizie del volume 6, fascicolo 141-->
+      <graphic url='./img/pagina07.jpg' width='613.4px' height='906.4px' />
+      <zone ulx="360" uly="494" lrx="539" lry="510" xml:id="id7_1not"/>
+      <zone ulx="324" uly="514" lrx="584" lry="543" xml:id="id7_2not"/>
+      <zone ulx="323" uly="545" lrx="579" lry="575" xml:id="id7_3not"/>
+    </surface>
+    
+  </facsimile>
+  
+  <text xml:lang="it">
+    <group>
+    
+      <text xml:id="paola"> <!--Corrispondenza da Paola. L'emigrazione-->
+        <body>
+        <div xml:id="corrispondenzaPaola">
+          <pb n="1"/>
+          <cb n="1"/>
+          <head facs="#id1_1paola" xml:id="p1_1">
+            <lb n="1"/><rs type="main">CORRISPONDENZA DA <persName ref="#PA">PAOLA</persName>.</rs>
+            <lb n="2"/><rs type="sub">L'EMIGRAZIONE.</rs>
+          </head>
+          <p facs="#id1_2paola" xml:id="p1_2">
+            <lb n="3"/>L'emigrazione del circondario di <persName ref="#PA">Paola</persName> verso l'<placeName ref="#AM">America</placeName>
+            <lb n="4"/>meridionale data soltanto da un decennio circa, e vi fu in-
+            <lb n="5" break="no"/>trodotta dall'esempio della vicina <placeName ref="#BA">Basilicata</placeName>; nei primi
+            <lb n="6"/>anni trovò poco seguito, ma da sei o sette anni essa crebbe
+            <lb n="7"/>fino alle proporzioni di una questione sociale, com'è del re-
+            <lb n="8" break="no"/>sto in altre parti d'<placeName ref="#IT">Italia</placeName>.
+          </p>
+          <p facs="#id1_3paola" xml:id="p1_3">
+            <lb n="9"/>Quanti siano gli emigrati del circondario di <persName ref="#PA">Paola</persName> non
+            <lb n="10"/>è possibile dire esattamente, non avendosi altro dato atten-
+            <lb n="11" break="no"/>dibile per giudicarne che il numero dei passaporti rilasciati,
+            <lb n="12"/>mentre di coloro che partono clandestinamente, talore nume-
+            <lb n="13" break="no"/>rosissimi, è molto difficile accertare il numero: oltre di che
+            <lb n="14"/>quando si conoscessero esattamente i partiti, per avere il nu-
+            <lb n="15" break="no"/>mero attuale degli emigrati, bisognerebbe fare due detrazioni,
+            <lb n="16"/>l'una per i tornati, e l'altra per i morti, entrambe le quali
+            <lb n="17"/>non si possono calcolare che molto inesattamente, ricor-
+            <lb n="18" break="no"/>rendo, come per i partiti clandestinamente, all'investigazione
+            <lb n="19"/>locale per ogni singolo caso. Non posso quindi garantire altro
+            <lb n="20"/>che l'esattezza relativa dei numeri, che do qui sotto; ma se
+            <lb n="21"/>errore vi è, essi stanno al disotto del vero anzichè al disopra.
+          </p>
+          <p facs="#id1_4paola" xml:id="p1_4">
+            <lb n="22"/>Secondo i miei calcoli, il numero dei partiti per l'<placeName ref="#AM">Ame-
+            <lb n="23" break="no"/>rica</placeName> meridionale a tutto il <date when="1879">1879</date> ascende a <num value="9300" confidence="medium">9300 circa</num>. Di
+            <lb n="24"/>questi però un <num value="1000" confidence="medium">migliaio</num> sono tornati definitivamente in
+            <lb n="25"/>patria; e <num atLeast="250" atMost="300" confidence="high">dai 250 ai 300</num> sono morti in <placeName ref="#AM">America</placeName>. Sicchè gli
+            <lb n="26"/>emigrati attuali arrivano ad <num value="8000" confidence="medium">8000 circa</num>, piuttosto più che
+            <lb n="27"/>meno. La popolazione totale del circondario di <persName ref="#PA">Paola</persName>, nel-
+            <lb n="28" break="no"/>l'ultimo censimento, risultò di <num value="91426" confidence="high">91,426</num> abitanti; sicchè gli
+            <lb n="29"/>emigrati ne rappresentano l'<num type="percentage" atLeast="8" confidence="high">8 % e più</num>. Ma più importa
+            <lb n="30"/>rilevare il rapporto fra il numero degli emigrati adulti e
+            <lb n="31"/>maschi, e quello dei totali adulti e maschi del circonda-
+            <lb n="32" break="no"/>rio. Ora degli emigrati, il <num type="percentage" value="95" confidence="medium">95 % circa</num>, sono maschi adulti, ed
+            <lb n="33"/>il <num type="percentage" value="5" confidence="medium">5 %</num> soltanto donne o bambini: sicchè abbiamo <num value="7600" confidence="medium">7600 circa</num>
+            <lb n="34"/>emigrati adulti e maschi su <num value="28000" confidence="high">28,000</num> adulti maschi che conta
+            <lb n="35"/>tutto il circondario di <persName ref="#PA">Paola</persName>; se ne deduce che <num type="percentage" value="25" confidence="medium">circa un
+            <lb n="36" break="no"/>quarto</num> degli adulti di sesso forte del detto circondario si
+            <lb n="37"/>trova in <placeName ref="#AM">America</placeName>; mentre vi è <num type="percentage" atMost="1" confidence="high">meno dell'1 %</num> di donne, ed
+            <lb n="38"/>altrettanto di fanciulli. <seg>Quanto allo stato personale degli
+            <lb n="39"/>emigrati, l'<num type="percentage" value="80" confidence="medium">80 % circa</num> di essi sono coniugati, e i più da poco
+            <lb n="40"/>tempo. Quanto alla professione, il <num type="percentage" value="90" confidence="medium">90 % circa</num> sono conta-
+            <lb n="41"/>dini, e il <num type="percentage" value="10" confidence="medium">10 %</num> fra artieri, medici e preti. Osservo fin d'ora
+            <lb n="42"/>che appunto questa sproporzione di sesso, di età, e di
+            <lb n="43"/>stato degli emigrati genera gravi inconvenienti.</seg>
+          </p>
+          <p facs="#id1_5paola" xml:id="p1_5">
+            <lb n="44"/>Una cosa salta agli occhi facilmente, ed è che partono
+            <lb n="45"/>allegri: non può non convincersene chiunque veda, in qua-
+            <lb n="46" break="no"/>lunque dei nostri villaggi o piccole città, le frotte dei com-
+            <lb n="47" break="no"/>ponenti una prossima spedizione: escono da una vita di stenti
+            <lb n="48"/>senza speranze, e fantasticano un ritorno fra gli agi: anche
+            <lb n="49"/>i più maturi, i <addName type="epithet">malaticci</addName>, quelli che la spesa del viaggio
+            <lb n="50"/>ha spogliati, sono lieti e fiduciosi. Una cagione di questa
+            <lb n="51"/>gioia, parrà strano ma è vero, è l'usuraio che impresta i
+            <lb n="52"/>denari agli emigranti. Per avere accesso da costui bisogna,
+            <lb n="53"/>anzitutto, possedere qualche cosa, casa o fondo, che valga
+            <lb n="54"/><num type="money" atLeast="500" atMost="600">cinque o seicento lire</num>; e comprare poi a caro prezzo i fa-
+            <lb n="55" break="no"/>vori di un garante. La somma che si domanda varia a se-
+            <lb n="56" break="no"/>conda dell'agiatezza del richiedente: alcuni si limitano a
+            <lb n="57"/>quanto è strettamente necessario per pagare il viaggio
+            <lb n="58"/>(ora <num type="money" atLeast="200" atMost="250">200 a 250 franchi</num>); altri domandano un po' di più, per
+            <lb n="59"/>lasciarne parte in famiglia e per portarsi qualche cosa, per
+          </p>
+          <cb n="2"/>
+          <p facs="#id1_6paola" xml:id="p1_6">
+            <lb n="1"/>quel che può occorrere. La misura dell'interesse varia; i
+            <lb n="2"/>più filantropi fra gli usurai fanno il seguente contratto.
+            <lb n="3"/>Previa garanzia, stipulano il <num type="percentage" value="15" confidence="high">15 %</num> d'interesse sulla somma,
+            <lb n="4"/>che imprestano; inoltre, la restituzione in oro di quello che
+            <lb n="5"/>si riceve in carta. Ma, pur troppo, la gente così generosa
+            <lb n="6"/>è scarsa, e dall'interesse del <num type="percentage" value="15">15</num>, si sale al <num type="percentage" value="20">20</num>, al <num type="percentage" value="30">30</num>, al <num type="percentage" value="50">50</num>,
+            <lb n="7"/>e talora al <num type="percentage" value="100">100 %</num>. Si aggiunga, che i primi denari mandati
+            <lb n="8"/>in patria dagli emigrati spettano di diritto al creditore;
+            <lb n="9"/>sicchè, meno rare eccezioni, dopo <time type="months" atLeast="7" atMost="8">sette o otto mesi</time>, questi
+            <lb n="10"/><choice><orig>riha</orig><reg>rià</reg></choice> il suo denaro. Un contratto ancor più oneroso è il se-
+            <lb n="11" break="no"/>guente: chi non ha garanzia si obbliga a dividere per <time type="years" atLeast="3" atMost="4">tre
+            <lb n="12"/>o quattro anni</time> i suoi lucri di <placeName ref="#AM">America</placeName> con quegli che gli
+            <lb n="13"/>fornisce i denari per il viaggio. E l'usuraio è raramente
+            <lb n="14"/>frodato, principalmente per la buona fede dei suoi clienti,
+            <lb n="15"/>e poi per le misure di sorveglianza, che adotta coi mede-
+            <lb n="16" break="no"/>simi. Ora però comincia a farsi strada un nuovo modo di
+            <lb n="17"/>procacciarsi i denari per il viaggio. Chi ha fatto fortuna
+            <lb n="18"/>in <placeName ref="#AM">America</placeName> si affretta a tornare in patria; ma, o <addName type="epithet">novelle</addName>
+            <lb n="19"/>ambizioni, o tedio della <addName type="epithet">meschina</addName> vita paesana, ben presto
+            <lb n="20"/>lo consigliano ad emigrare di nuovo. Questi emigranti, trovan-
+            <lb n="21" break="no"/>dosi facoltosi, volentieri conducono, a loro spese, dei pa-
+            <lb n="22" break="no"/>renti o amici in <placeName ref="#AM">America</placeName>. I contratti che fanno non sono
+            <lb n="23"/>meno onerosi; ma vi è il vantaggio che l'<addName type="epithet">eccessiva</addName> usura
+            <lb n="24"/>percepita compensa quella anteriormente pagata. Di più, vi
+            <lb n="25"/>è la speranza che, da questo principio di credito fidu-
+            <lb n="26" break="no"/>ciario fra operai, possa sorgere presto un'<orgName ref="#AMC">associazione di
+            <lb n="27"/>mutuo credito</orgName>, che sarebbe d'incalcolabile utilità per gli
+            <lb n="28"/>emigranti.
+          </p>
+          <p facs="#id1_7paola" xml:id="p1_7">
+            <lb n="29"/>Un altro personaggio di cui occorrono gli uffici agli
+            <lb n="30"/>emigranti è il così detto <hi rend="italic">conduttore</hi>. Questi ordinariamente
+            <lb n="31"/>dirige i medesimi ad un suo corrispondente in <placeName ref="#NA">Napoli</placeName>; ed
+            <lb n="32"/>essi per opera di costui sono ricevuti a bordo di un piro-
+            <lb n="33" break="no"/>scafo, che li trasporta in <placeName ref="#AM">America</placeName>. Fra l'uno e l'altro in-
+            <lb n="34" break="no"/>termediario prendono <num type="money" atLeast="20" atMost="30">da 20 a 30 lire</num> per passeggero. Questo
+            <lb n="35"/>compenso, in sostanza, viene pagato dall'emigrante, benchè
+            <lb n="36"/>appaia dato dalla <orgName ref="#SDT">società dei trasporti.</orgName>. Avuti i denari, in
+            <lb n="37"/>un modo o nell'altro, è assicurata la partenza. Se si può
+            <lb n="38"/>avere il passaporto, e con sollecitudine, bene; altrimenti se
+            <lb n="39"/>ne fa senza, e si parte clandestinamente.
+          </p>
+          <p facs="#id1_8paola" xml:id="p1_8">
+            <lb n="40"/><seg>I buoni propositi, con i quali partono, vengono dai più
+            <lb n="41"/>modificati, appena han messo il piede sul <placeName ref="#AM">nuovo continente</placeName>.</seg>
+            <lb n="42"/>Gli scapoli, quasi tutti, si naturalizzano in <placeName ref="#AM">America</placeName>: per
+            <lb n="43"/>qualche tempo scrivono alla famiglia: spesso mandano i
+            <lb n="44"/>denari spesi nel viaggio, e qualch'altra cosa anche; ma,
+            <lb n="45"/>dopo <time type="years" atLeast="1">un anno o poco più</time>, nuovi affetti, o vizi contratti,
+            <lb n="46"/>fanno dimenticare la famiglia lontana, in cui non han lasciato
+            <lb n="47"/>nè figli, nè moglie. Quelli che li han lasciati spesso total-
+            <lb n="48" break="no"/>mente li obbliano. Le mogli, che di frequente incoraggiano i
+            <lb n="49"/>mariti a emigrare perchè alla loro fantasia sorridono il pen-
+            <lb n="50" break="no"/>siero di restare per un certo tempo libere di sè, e l'illu-
+            <lb n="51" break="no"/>sione di minor disagio, trovando facilmente, massime nei pri-
+            <lb n="52" break="no"/>mi tempi, denari in prestito, e l'ambizioncella di diventar
+            <lb n="53"/>padrona, dovendo dare a colonia il fondo che prima colti-
+            <lb n="54" break="no"/>vava il marito, le mogli, dico, il più delle volte provocano
+            <lb n="55"/>con la loro condotta la dimenticanza dei mariti. Ma altre
+            <lb n="56"/>volte la dimenticanza è cagionata da nuove abitudini, o
+            <lb n="57"/>nuove passioni contratte, che pel potere trasformante dell'am-
+            <lb n="58" break="no"/>biente, affievoliscono, e poi scancellano le antiche. <num type="percentage" value="33" confidence="low">Un terzo
+            <lb n="59"/>forse</num> degli emigrati restano fedeli alle promesse fatte prima
+            <lb n="60"/>della partenze, e giustificano le speranze di loro concepite.
+          </p>
+          <p facs="#id1_9paola" xml:id="p1_9">
+            <lb n="61"/>Le famiglie dal canto loro anch'esse si comportano in
+            <lb n="62"/>modo diverso. Se l'emigrato è un figlio di famiglia, il danno
+            <lb n="63"/>del costui abbandono non è grande, o è grande solo dal
+            <lb n="64"/>punto di vista finanziario. I pericoli ed i danni gravi sono
+            <lb n="65"/>per le famiglie di quelli coniugati, che sono i <num type="percentage" value="80" confidence="medium">quattro
+            <lb n="66"/>quinti</num>. Appena partito il capo di famiglia, raramente questa
+            <lb n="67"/>può mantenersi con le proprie risorse: il più delle volte
+          </p>
+          <pb n="2"/>
+          <cb n="1"/>
+          <p facs="#id2_1paola" xml:id="p2_1">
+            <lb n="1"/>deve ricorrere a prestiti dagli usurai. Questi da principio
+            <lb n="2"/>son difficili, esitanti; poichè ignorano se i denari dell'<placeName ref="#AM">Ame-
+            <lb n="3" break="no"/>rica</placeName> verranno, ed in che quantità. Dopo <num type="months" atLeast="6" atMost="12">sei mesi od un
+            <lb n="4"/>anno</num> sanno a che partito appigliarsi. Se i denari del viag-
+            <lb n="5" break="no"/>gio sono stati restituiti, se le lettere venute annunziano
+            <lb n="6"/>nuove rimesse di denaro, allora essi si disputano il protet-
+            <lb n="7" break="no"/>torato della famigliuola: pronti a dare qualunque cosa
+            <lb n="8"/>chiesta, ed offrirne anche spontaneamente, diventano in-
+            <lb n="9" break="no"/>somma amministratori di quella famiglia, sicuri che di tutto
+            <lb n="10"/>saranno compensati nella misura che son soliti esigere. Ma
+            <lb n="11"/>se l'emigrato non manda denaro, ritirano la loro protezione
+            <lb n="12"/>e, brontolando contro i corrotti costumi e l'ingratitudine, se
+            <lb n="13"/>ne vanno difilato <unclear agent="ink">dall'</unclear>usciere. Nè solo gli usurai, ma gli
+            <lb n="14"/>stessi parenti cercano di spillare qualche cosa delle mogli
+            <lb n="15"/>degli emigrati buoni o fortunati.
+          </p>
+          <p facs="#id2_2paola" xml:id="p2_2">
+            <lb n="16"/><seg>La fedeltà delle mogli poi si trova in tali circostanze
+            <lb n="17"/>di fronte a mille pericoli, ai quali non è a stupire che sfugga
+            <lb n="18"/>raramente:</seg> il numero degli esposti, cresciuto assai da <time type="years" unit="10">un
+            <lb n="19"/>decennio</time> nel circondario di <persName ref="#PA">Paola</persName>, ne è probabilmente un
+            <lb n="20"/>criterio; e vi è forse connesso anche qualche infanticidio
+            <lb n="21"/>verificatosi. La notizia della infedeltà della moglie porta
+            <lb n="22"/>l'oblio del marito, all'oblio tien dietro la miseria della fa-
+            <lb n="23" break="no"/>miglia; come in altri casi è la miseria cagionata da oblio o
+            <lb n="24"/>disgrazia del marito, che conduce all'infedeltà. Molti mariti
+            <lb n="25"/>però al ritorno perdonano e ripigliano la moglie, ciò che è an-
+            <lb n="26" break="no"/>cora meno peggio, benchè del fallo non si tolgano le con-
+            <lb n="27" break="no"/>seguenze tutte, nè si cancelli il mal esempio. Altre mogli
+            <lb n="28"/>poi, e per fortuna non son poche, trovano nell'amor di
+            <lb n="29"/>madre e nel sentimento del dovere, la forza di bastare alla
+            <lb n="30"/>vita della famigliuola e di serbare intatta la fede di sposa.
+          </p>
+          <p facs="#id2_3paola" xml:id="p2_3">
+            <lb n="31"/>Ho detto che <num type="percentage" value="33" confidence="medium">un terzo circa</num> degli emigrati giustifica le spe-
+            <lb n="32" break="no"/>ranze fatte concepire alla partenza. Sono questi, per lo più,
+            <lb n="33"/>dei padri di famiglia, <num type="age" atLeast="40">oltre la quarantina</num>; quasi tutti pic-
+            <lb n="34" break="no"/>coli proprietari, che prima vivevano bene, coltivando i propri
+            <lb n="35"/>poderetti; ma <choice><orig>poscia</orig><reg>poi</reg></choice> si sono trovati disagiati, <choice><orig>pei</orig><reg>per i</reg></choice> prodotti
+            <lb n="36"/>mancati, e nei pesi maggiori, che ora gravitano, special-
+            <lb n="37" break="no"/>mente sulla piccola proprietà. Per riparare alle deficienze
+            <lb n="38"/>si è ricorso ai prestiti; i quali, una volta nati, son cre-
+            <lb n="39" break="no"/>sciuti, finchè minacciavano di ridurre al proletariato il pic-
+            <lb n="40" break="no"/>colo proprietario. Ad evitare la catastrofe, il capo di fa-
+            <lb n="41" break="no"/>miglia va in <placeName ref="#AM">America</placeName>. Le mogli di costoro sono anch'esse
+            <lb n="42"/>di una certa età, con figli adulti, e dotate di quell'onestà
+            <lb n="43"/>tradizionale delle nostre contadine: perciò, tranne il caso
+            <lb n="44"/>di morte, o di malattia dell'emigrato, la famiglia risorge,
+            <lb n="45"/>per opera di costui, dalle strettezze in cui versava.
+          </p>
+          <p facs="#id2_4paola" xml:id="p2_4">
+            <lb n="46"/><seg>La durata dell'emigrazione varia.</seg> Il minimo è <time type="years" atLeast="2.5" atMost="3">da due
+            <lb n="47"/>anni e mezzo a tre</time>. Alcuni sono in <placeName ref="#AM">America</placeName> <time type="years" atLeast="8" atMost="10">da otto a dieci
+            <lb n="48"/>anni</time>, e non parlano ancora di tornare: oltre quelli che vi
+            <lb n="49"/><choice><orig>han</orig><reg>hanno</reg></choice> preso stanza definitivamente. La dimora all'estero in-
+            <lb n="50" break="no"/>fluisce in vario grado sugli emigrati. Alcuni tornano per-
+            <lb n="51" break="no"/>fettamente gli stessi di quel che erano partiti: e sono questi
+            <lb n="52"/>per lo più, che maggiormente <choice><orig>han</orig><reg>hanno</reg></choice> fatto fortuna. <seg>Altri sono
+            <lb n="53"/>irriconoscibili. I più hanno esercitato in <placeName ref="#AM">America</placeName> un mestiere
+            <lb n="54"/>diverso da quello di contadino, e quindi difficilmente si
+            <lb n="55"/>adattano, al ritorno, alla vita campagnola.</seg> <choice><orig>Usi</orig><reg>Abituati</reg></choice> alla grossa
+            <lb n="56"/><choice><orig>mercede</orig><reg>retribuzione</reg></choice> dell'operaio in <placeName ref="#AM">America</placeName>, quella dei <placeName ref="#IT">nostri luoghi</placeName>
+            <lb n="57"/>gli sembra talmente meschina, che non valga la pena di
+            <lb n="58"/>lavorare; <choice><orig>onde</orig><reg>perciò</reg></choice> diventano oziosi; e, poichè una giornata di
+            <lb n="59"/>lavoro, in <placeName ref="#AM">America</placeName>, li compensa di una settimana di ozio
+            <lb n="60"/>in paese, si propongono di novellamente emigrare. Così
+            <lb n="61"/>alcuni, dopo <time type="months" atLeast="4" atMost="5">quattro o cinque mesi</time> dal ritorno, ripartono;
+            <lb n="62"/>e vi sono di quelli che ciò fanno per la terza o quarta
+            <lb n="63"/>volta. <seg>Perciò il contadino che emigra è spesso perduto
+            <lb n="64"/><unclear agent="ink">dalle</unclear> nostre compagne per sempre.</seg>
+          </p>
+          <p facs="#id2_5paola" xml:id="p2_5">
+            <lb n="65"/>Vediamo ora i principali rapporti dell'emigrazione <choice><orig>colla</orig><reg>con la</reg></choice>
+            <lb n="66"/>società. Nel circondario di <persName ref="#PA">Paola</persName>, <choice><orig>d'onde</orig><reg>da dove</reg></choice> ho specialmente ri-
+            <lb n="67" break="no"/>levato le considerazioni suesposte, si verifica una grande
+          </p>
+          <cb n="2"/>
+          <p facs="#id2_6paola" xml:id="p2_6">
+            <lb n="1"/>sproporzione fra la popolazione ed i mezzi di sussistenza.
+            <lb n="2"/>La classe agricola costituisce gli <num type="percentage" value="87">87 per cento</num> della popo-
+            <lb n="3" break="no"/>lazione totale; a ciascuno agricoltore corrispondono <num type="are" value="83">83 are</num>
+            <lb n="4"/>di terreno coltivato; la coltura predominante è estremamente
+            <lb n="5"/>estensiva. Queste condizioni ci danno una produzione insuffi-
+            <lb n="6" break="no"/>ciente, che non accenna ad aumentarsi; mentre, dall'altro lato,
+            <lb n="7"/>niente impedisce il rapido incremento della popolazione.
+            <lb n="8"/>Questo male sociale, che, in diverso grado, si riscontra in
+            <lb n="9"/> gran parte d'<placeName ref="#IT">Italia</placeName>, nel circondario di <persName ref="#PA">Paola</persName> è gravissimo ed
+            <lb n="10"/>antico. I fenomeni di esso, in passato, furono: la decadenza
+            <lb n="11"/>degli organismi, e la grande mortalità, specialmente nei
+            <lb n="12"/>fanciulli; l'abbassamento del livello morale, la tendenza
+            <lb n="13"/>alla frode, il brigantaggio; e, nell'economia rurale, il dis-
+            <lb n="14" break="no"/>sodamento e la coltura dei terreni incoltivabili per natura.
+            <lb n="15"/><seg>Attualmente manifestazione della stessa malattia, è l'emi-
+            <lb n="16" break="no"/>grazione. Ma, appunto perchè tale, essa contribuisce a di-
+            <lb n="17" break="no"/>minuire e a far cessare gli altri fenomeni detti di sopra.</seg>
+            <lb n="18"/><choice><orig>Dippiù</orig><reg>Inoltre</reg></choice>, l'emigrazione è un mezzo curativo della malattia
+            <lb n="19"/>stessa: a conti fatti, i mezzi di sussistenza sono aumentati
+            <lb n="20"/>per effetto dell'emigrazione: oltrechè essa è un mezzo pre-
+            <lb n="21" break="no"/>ventivo contro la tendenza di aumento di queste popola-
+            <lb n="22" break="no"/>zioni così prolifiche.
+          </p>
+          <p facs="#id2_7paola" xml:id="p2_7">
+            <lb n="23"/><seg>Intesa a questo modo, l'emigrazione s'impone: essa non
+            <lb n="24"/>è che la <choice><orig>fisonomia</orig><reg>fisionomia</reg></choice> attuale della malattia antica;</seg> e durerà
+            <lb n="25"/>fino a quando sarà cessata la malattia stessa, o si mani-
+            <lb n="26" break="no"/>festerà sott'altra forma. Intanto l'opera del governo e
+            <lb n="27"/>dei privati filantropi deve rivolgersi a tutelare l'emigra-
+            <lb n="28" break="no"/>zione, affinchè essa produca il massimo bene, ed il mi-
+            <lb n="29"/>nimo male.
+          </p>
+        </div>
+        </body>
+      </text>
+      
+      <text xml:id="biblPaola"> <!--Estratto dalla bibliografia del volume 6, fascicolo 139-->
+        <body>
+        <div xml:id="bibliografiaPaola">
+          <pb n="3"/>
+          <cb n="1"/>
+          <head facs="#id3_1biblPaola" xml:id="p3_1">
+            <lb n="1"/><hi rend="head">BIBLIOGRAFIA.</hi>
+          </head>
+          <p facs="#id3_2biblPaola" xml:id="p3_2">
+            <lb n="2"/><persName ref="AR">Alfredo Reumont</persName>, <bibl ref="#SSL">Saggi di storia e letteratura</bibl>. - <placeName ref="#FI">Firenze</placeName>, <persName ref="BAR"><choice><abbr>G.</abbr><expan>G<ex>aspero</ex></expan></choice>
+            <lb n="3"/>Barbèra</persName> editore.
+          </p>
+          <p facs="#id3_3biblPaola" xml:id="p3_3">
+            <lb n="4"/>Tra gli stranieri che più si sono occupati, in questi ul-
+            <lb n="5" break="no"/>timi tempi, di <seg>studiare la storia e la letteratura nostra,</seg> tiene
+            <lb n="6"/>posto segnalatissimo <persName ref="AR">Alfredo Reumont</persName>. Molte e proficue
+            <lb n="7"/>sono le ricerche da lui fatte, e grande è l'amore che ha
+            <lb n="8"/>sempre dimostrato <choice><orig>pel</orig><reg>per il</reg></choice> paese dove <quote>« fu condotto ventenne »</quote>
+            <lb n="9"/>e passò tanta parte della sua vita. I sedici saggi che ora
+            <lb n="10"/>ha raccolti insieme, quantunque composti la maggior parte
+            <lb n="11"/>da molti anni, non <choice><orig>han</orig><reg>hanno</reg></choice> perduto niente del loro valore cri-
+            <lb n="12" break="no"/>tico e storico. Gli studiosi non vi troveranno solo, come
+            <lb n="13"/>l'<choice><abbr>A.</abbr><expan>A<ex>utore</ex></expan></choice> modestamente dice, testimonianza di verace affetto, ma
+            <lb n="14"/>anche gran copia di notizie spesso recondite e quasi sem-
+            <lb n="15" break="no"/>pre importanti per la luce che spargono su molti punti
+            <lb n="16"/>della nostra storia e, in particolar modo, <choice><orig>su le</orig><reg>sulle</reg></choice> relazioni
+            <lb n="17"/>vicendevoli tra la <placeName ref="#GE">Germania</placeName> e l'<placeName ref="#IT">Italia</placeName>.
+          </p>
+          <p facs="#id3_4biblPaola" xml:id="p3_4">
+            <lb n="18"/>Assai notevoli sono i primi tre saggi, in cui è narrato
+            <lb n="19"/><time type="years" quantity="100" precision="medium">circa un secolo</time> della storia di <placeName ref="#TO">Toscana</placeName> (<date period="1737-1829">1737-1829</date>). Loro
+            <lb n="20"/>fine diretto è di far conoscere la vita e i fatti di alcuni
+            <lb n="21"/>personaggi, come il <persName ref="#MDB">principe</persName> e la <persName ref="#AMDL">principessa</persName> di <placeName ref="#CR">Craon</placeName>, <persName ref="#PL">Pie-
+            <lb n="22" break="no"/>tro Leopoldo</persName>, <persName ref="#G2">Giuseppe II</persName>, <persName ref="#FM">Federigo Manfredini</persName>; <seg>ma non
+            <lb n="23"/>sono semplici biografie, poichè intorno a quelli è come ag-
+            <lb n="24" break="no"/>gruppata la vita politica, letteraria, sociale della <placeName ref="#TO">Toscana</placeName>.</seg>
+            <lb n="25"/>I letterati fermeranno più specialmente l'attenzione su altri
+            <lb n="26"/>scritti, come il <bibl ref="#MVI">Monte di Venere in Italia</bibl>, <bibl ref="#MG">Milton e Galileo</bibl>,
+            <lb n="27"/><bibl ref="#RLIG">Delle relazioni fra la letteratura italiana e quella di Germa-
+            <lb n="28" break="no"/>nia nel seicento</bibl>, <bibl ref="#ADC">Dè soci esteri dell'Accademia della Crusca</bibl>, ec.
+          </p>
+          <p facs="#id3_5biblPaola" xml:id="p3_5">
+            <lb n="29"/>Il <persName ref="AR">Reumont</persName> scrive con semplicità. I suoi scritti piacciono,
+            <lb n="30"/>perchè vi si impara molto e perchè sono pieni di buon
+            <lb n="31"/>senso. Qua e là si <unclear reason="faded">desidera</unclear> un pò più di calore nella nar-
+            <lb n="32" break="no"/>razione, che rimane impacciata in particolari minuti accen-
+            <lb n="33" break="no"/>nati un pò alla rinfusa. Certo gli argomenti letterari si
+            <lb n="34"/>presterebbero a una trattazione più vivace; certo manca,
+            <lb n="35"/>talora, il colpo d'occhio sintetico il quale riassume e fissa
+            <lb n="36"/>i <choice><orig>resultati</orig><reg>risultati</reg></choice> delle ricerche; ma con tutto questo, e benchè
+            <lb n="37"/>l'<choice><abbr>A.</abbr><expan>A<ex>utore</ex></expan></choice> mostri sempre le sue sempre soverchie simpatie per il
+            <lb n="38"/>papato, il volume del <persName ref="AR">Reumont</persName> è un prezioso acquisto per
+            <lb n="39"/>la letteratura erudita del nostro paese.
+          </p>
+        </div>
+        </body>
+      </text>
+      
+      <text xml:id="prato"> <!--Corrispondenza da Prato. A proposito della legge sul lavoro dei fanciulli-->
+        <body>
+        <div xml:id="corrispondenzaPrato">
+          <pb n="4"/>
+          <cb n="2"/>
+          <head facs="#id4_1prato" xml:id="p4_1">
+            <lb n="1"/><rs type="main">CORRISPONDENZA DA <placeName ref="#PR">PRATO</placeName>.</rs>
+            <lb n="2"/><rs type="sub">A PROPOSITO DELLA LEGGE SUL LAVORO DEI FANCIULLI.</rs>
+          </head>
+          <p facs="#id4_2prato" xml:id="p4_2">
+            <lb n="3"/>Fra tutti gli argomenti addotti per combattere la legge
+            <lb n="4"/>sul lavoro dei fanciulli, quello sul quale si è fatto più chiasso
+            <lb n="5"/>è che in <placeName ref="#IT">Italia</placeName> non esistono quei mali che con la legge si
+            <lb n="6"/>vorrebbero impedire.
+          </p>
+          <p facs="#id4_3prato" xml:id="p4_3">
+            <lb n="7"/>Questo argomento, a vero dire, non mi fece mai grande
+            <lb n="8"/>impressione, perchè lo strazio che si fa dei fanciulli nelle
+            <lb n="9"/>zolfare di <placeName ref="#GI">Girgenti</placeName> e di <placeName ref="#CA">Caltanissetta</placeName>, e il lavoro este-
+            <lb n="10" break="no"/>nuante cui nelle filature lombarde sono condannati <num atLeast="56000">oltre
+            <lb n="11"/>56 mila</num> fanciulli, dei quali non pochi al <unclear reason="faded">disotto</unclear> di <num type="age" value="9">9 anni</num>, <ref target="#nota1">*</ref>
+            <lb n="12"/>mi sono sempre sembrati due fatti che giustificano piena-
+            <lb n="13" break="no"/>mente <seg>l'intervento diretto ed efficace dello <orgName ref="#ST">Stato</orgName> a tutela
+            <lb n="14"/>delle giovani generazioni lavoratrici.</seg>
+          </p>
+          <p facs="#id4_4prato" xml:id="p4_4">
+            <lb n="15"/>Ma poichè sempre si insiste sull'inutilità di una legge
+            <lb n="16"/>che regoli il lavoro dei fanciulli e si vuole che codesti due
+            <lb n="17"/>fatti non siano sufficienti a giustificarla, così penso che sia
+            <lb n="18"/>dovere di tutti coloro che sentono il bisogno di una simile
+            <lb n="19"/>legge, di raccogliere, ognuno nella propria cerchia, dati e
+            <lb n="20"/>notizie sul lavoro dei fanciulli e di renderli di pubblica ra-
+            <lb n="21" break="no"/>gione. In tal modo si verrebbe a formare una specie di
+            <lb n="22"/>inchiesta che sarebbe ben altrimenti autorevole di quella
+            <lb n="23"/>del <date when="1877">1877</date> eseguita per mezzo delle <orgName>Prefetture</orgName> e di quella
+            <lb n="24"/>del <date when="1879">1879</date> eseguita per mezzo delle <orgName ref="#DP">Deputazioni Provinciali</orgName>,
+            <lb n="25"/>dei <orgName ref="#CS">Consigli Sanitari</orgName>, delle <orgName ref="#CDC">Camere di Commercio</orgName>, degli
+            <lb n="26"/>Industriali e degli Ingegneri di miniere.
+          </p>
+          <p facs="#id4_5prato" xml:id="p4_5">
+            <lb n="27"/>Per parte mia, che sono fra i fautori della legge, poichè
+            <lb n="28"/>veggo il male e non comprendo la ragione per la quale lo
+            <lb n="29"/><orgName ref="#ST">Stato</orgName> non debba <choice><orig>moversi</orig><reg>muoversi</reg></choice> per guarirlo, sento vivamente co-
+            <lb n="30" break="no"/>desto dovere, e in soddisfazione del medesimo credo di do-
+            <lb n="31" break="no"/>ver portare a notizia del pubblico ciò che, non son molti
+            <lb n="32"/>giorni, ho potuto constatare in quel di <placeName ref="#PR">Prato</placeName>. <ref target="#nota2">**</ref>
+          </p>
+          <p facs="#id4_6prato" xml:id="p4_6">
+            <lb n="33"/>Nei pressi di questa florida città, esempio alle altre di
+            <lb n="34"/><placeName ref="#TO">Toscana</placeName> per attività produttrice, scorrono, discendendo dal
+            <lb n="35"/>prossimo <placeName>Appennino</placeName>, frequenti corsi d'acqua, che alimentano
+            <lb n="36"/>la forza motrice a molti opifici nei quali si esercita l'in-
+            <lb n="37" break="no"/>dustria della lana. Da qualche tempo questi lanifici hanno
+            <lb n="38"/>assunto per numero vaste proporzioni. Non sono in grado
+            <lb n="39"/>di indicare, nemmeno approssimativamente, il numero dei
+            <lb n="40"/><unclear reason="faded">fusi</unclear> che contengono. Ma che questo sia rilevante e vada
+            <lb n="41"/>di continuo crescendo apparisce dal fatto che molti pro-
+            <lb n="42" break="no"/>prietari hanno convertito in lanifici i loro mulini!
+          </p>
+          <p facs="#id4_7prato" xml:id="p4_7">
+            <lb n="43"/>In questi lanifici la lavorazione è continua di settimana
+            <lb n="44"/>in settimana. Il lavoro è diviso fra due mute di operai,
+            <lb n="45"/>delle quali una lavora di giorno e l'altra di notte; ogni
+            <lb n="46"/><date when="monday">lunedì</date>, dopo <time type="days" quantity="1">un giorno</time> di riposo, le due mute si danno il
+            <lb n="47"/>cambio, alternandosi settimanalmente al lavoro notturno.
+            <lb n="48"/>Ogni operaio presiede a una filatrice che mette in moto
+            <lb n="49"/><num atLeast="100" atMost="300">dai 200 ai 300</num> fusi; e ognuno di questi operai è coadiu-
+            <lb n="50" break="no"/>vato <num atLeast="2" atMost="4">da 2 o da 4</num> fanciulli che hanno l'incombenza di riat-
+            <lb n="51" break="no"/>taccare i fili che si strappano.
+          </p>
+          <p facs="#id4_8prato" xml:id="p4_8">
+            <lb n="52"/>Fin qui, come si vede, nulla di male; ma invece argo-
+            <lb n="53" break="no"/>mento di lode a quegli <addName type="epithet">avveduti</addName> proprietari, a quegli <addName type="epithet">arditi</addName>
+            <lb n="54"/>capitalisti, a quei <addName type="epithet">forti</addName> lavoratori. Qui però comincia il male;
+            <lb n="55"/>e il male, come il lettore si è già immaginato, sta tutto
+            <lb n="56"/>nel modo col quale quei fanciulli sono impiegati.
+          </p>
+          <p facs="#id4_9prato" xml:id="p4_9">
+            <lb n="57"/><seg>L'impiego di quei fanciulli si fa senza alcun riguardo
+            <lb n="58"/>alla loro tenera età, ai bisogni dell'animo loro.</seg> Nessuna
+          </p>
+          <p facs="#id4_10prato" xml:id="p4_10">
+            <lb n="59" break="yes"/><note xml:id="nota1" place="foot">* Vedi <hi rend="italic">Rassegna</hi>, vol. III, pag. 198.</note>
+            <lb n="60"/><note xml:id="nota2" place="foot">** Nelle <hi rend="italic">Notizie Statistiche sopra alcune industrie</hi>, pubblicato per cura
+            <lb n="61"/>del <persName>Comm. V. Ellena</persName> nel <date when="1875">1875</date> dal <orgName ref="#MAIC">Ministero d'Agricoltura, Industria e
+            <lb n="62"/>Commercio</orgName>, abbiamo per l'industria della filatura e tessitura della lana
+            <lb n="63"/>a <placeName ref="#PR">Prato</placeName> le seguenti cifre. In <num value="84">84</num> stabilimenti, il numero degli operai
+            <lb n="64"/>adulti addetti alla filatura era di <num value="533">533</num>, oltre <num value="280">280</num> fanciulli al di sotto
+            <lb n="65"/>di <num type="age" value="14">14 anni</num>; e quello degli adulti addetti alla tessitura era di <num value="510">510</num> uo-
+            <lb n="66" break="no"/>mini e <num value="55">55</num> donne, con <num value="422">422</num> fanciulli al di sotto dei <num type="age" value="14">14 anni</num>. Ma dal <date when="1877">1877</date>
+            <lb n="67"/>a oggi queste cifre saranno probabilmente cresciute.</note>
+          </p>
+          <pb n="5"/>
+          <cb n="1"/>
+          <p facs="#id5_1prato" xml:id="p5_1">
+            <lb n="1"/>norma presiede alla loro scelta: ve ne sono di <num type="age" value="12">12 anni</num>,
+            <lb n="2"/>di <num type="age" value="10">10</num>, e non pochi anche di <num type="age" value="7">7 anni</num>. Nessuna norma pre-
+            <lb n="3" break="no"/>siede al modo del loro lavoro: hanno lo stesso orario degli
+            <lb n="4"/>adulti, per cui, senza contare le ore di riposo, hanno un
+            <lb n="5"/>lavoro che varia <time type="hours" atLeast="10.5" atMost="12">dalle 10 e mezzo alle 12 ore</time>, giungendo
+            <lb n="6"/>nell'estate anche alle <time type="hours" quantity="14">14 ore</time>. Nessuna norma infine tutela
+            <lb n="7"/>il loro riposo notturno: seguono la muta degli adulti e
+            <lb n="8"/>lavorano alternativamente una settimana di giorno e una
+            <lb n="9"/>di notte.
+          </p>
+          <p facs="#id5_2prato" xml:id="p5_2">
+            <lb n="10"/>Queste cifre e queste notizie non hanno bisogno di com-
+            <lb n="11" break="no"/>menti; come non hanno bisogno di enumerazione i danni
+            <lb n="12"/>che in quelle povere creature, che hanno il corpo teneris-
+            <lb n="13" break="no"/>simo e l'animo aperto ad ogni lieve impressione, de-
+            <lb n="14" break="no"/>vono produrre il lavoro prolungato, e intenso, il contatto
+            <lb n="15"/>continuo con adulti, l'abbandono della vita di famiglia e
+            <lb n="16"/>della scuola.
+          </p>
+          <p facs="#id5_3prato" xml:id="p5_3">
+            <lb n="17"/>Il male del modo di impiego dei fanciulli non è limi-
+            <lb n="18" break="no"/>tato, come si vede, ai casi ormai classici delle zolfare e
+            <lb n="19"/>delle filature lombare. <seg>Il male, anche in <placeName ref="#IT">Italia</placeName>, esiste
+            <lb n="20"/>ovunque la vita industriale tende a manifestarsi.</seg> La sua
+            <lb n="21"/>entità non è, nemmeno da noi, così lieve da poter essere
+            <lb n="22"/>trascurato. Lo <orgName ref="#ST">Stato</orgName> ha i modi per poterlo guarire o, al-
+            <lb n="23" break="no"/>meno, ridurlo alle minime proporzioni: dunque ha il dovere
+            <lb n="24"/>di farlo.
+          </p>
+          <p facs="#id5_4prato" xml:id="p5_4">
+            <lb n="25"/>So che contro la legge sul lavoro dei fanciulli è stata
+            <lb n="26"/>una gara nel trovare argomenti. Ma questi argomenti mi
+            <lb n="27"/>sono apparsi tutti di tal natura che ho sempre pensato
+            <lb n="28"/>che nella fretta di architettarli si è badato più alla quan-
+            <lb n="29" break="no"/>tità che alla qualità, e che furono escogitati più presto
+            <lb n="30"/>dall'interesse dei fabbricanti e dallo spirito di scuola che dal
+            <lb n="31"/>desiderio sincero e spregiudicato di giovare alle nostre
+            <lb n="32"/>classi lavoratrici. Infatti chi ha seguito lo svolgimento della
+            <lb n="33"/>questione sa che di tutti questi argomenti, sia che fossero
+            <lb n="34"/>forniti dal vecchio arsenale della economia dottrinaria, sia
+            <lb n="35"/>che <unclear reason="faded">fossero</unclear> proposti nel nome del tecnicismo industriale,
+            <lb n="36"/>neppure uno è rimasto in piedi, neppure uno potè resistere
+            <lb n="37"/>all'analisi dell'osservatore spassionato. <seg>Per cui, dopo tanta
+            <lb n="38"/>guerra, cio che è rimasto è questo: la certezza che anche
+            <lb n="39"/> in <placeName ref="#IT">Italia</placeName> esiste il male del lavoro eccessivo dei fanciulli;
+            <lb n="40"/>che il solo rimedio, poichè non ne sono stati suggeriti altri,
+            <lb n="41"/>è l'intervento dello <orgName ref="#ST">Stato</orgName>; che una strana coalizione di in-
+            <lb n="42" break="no"/>teressi materiali e di pregiudizi scientifici impedisce tut-
+            <lb n="43" break="no"/>tavia che a quel male questo rimedio venga applicato.</seg>
+          </p>
+        </div>
+        </body>
+      </text>
+      
+      <text xml:id="biblPrato"> <!--Estratto dalla bibliografia del volume 6, fascicolo 141-->
+        <body>
+        <div xml:id="bibliografiaPrato">
+          <pb n="6"/>
+          <cb n="1"/>
+          <head facs="#id6_1biblPrato" xml:id="p6_1">
+            <lb n="1"/><hi rend="head">BIBLIOGRAFIA.</hi>
+          </head>
+          <p facs="#id6_2biblPrato" xml:id="p6_2">
+            <lb n="2"/><persName ref="GC">Giosuè Carducci</persName>, <bibl ref="#JU">Juvenilia</bibl>; edizione definitiva - <placeName ref="#BO">Bologna</placeName>,
+            <lb n="3"/><orgName ref="#ZA">Zanichelli</orgName>, <date when="1880">1880</date>.
+          </p>
+          <p facs="#id6_3biblPrato" xml:id="p6_3">
+            <lb n="4"/>Non esitiamo a dichiarare esagerata la modestia dell'<choice><abbr>A.</abbr><expan>A<ex>utore</ex></expan></choice>
+            <lb n="5"/>che giudica molto <unclear reason="faded">severamente</unclear> queste prime prove del
+            <lb n="6"/>suo ingegno, nella <hi rend="italic">Prefazione</hi>. Certo, dopo le <bibl ref="#PE">Primaver El-
+            <lb n="7" break="no"/>leniche</bibl> e le <bibl ref="#OB">Odi Barbare</bibl>, a voltarsi indietro, si trova aver
+            <lb n="8"/>percorso un lungo cammino ed essere saliti a grande al-
+            <lb n="9" break="no"/>tezza rispetto <choice><orig>a'</orig><reg>a</reg></choice> versi per la Croce di Savoia o all'inno a
+            <lb n="10"/><persName ref="#FE">Febo</persName>. <seg>Ma chi vuole rendersi ragione di questo progresso, chi
+            <lb n="11"/>vuole spiegarsi le qualità presenti della poesia del <persName ref="GC">Carducci</persName>,</seg>
+            <lb n="12"/>bisogna che cominci dalla lettura e dall'esame <choice><orig>de'</orig><reg>di</reg></choice> <bibl ref="#DE">Decen-
+            <lb n="13" break="no"/>nalia</bibl> e <choice><orig>de'</orig><reg>di</reg></choice> <bibl ref="#LG">Levia Gravia</bibl>. Anzi gli si deve <choice><orig>esser</orig><reg>essere</reg></choice> grati se,
+            <lb n="14"/>vincendo la naturale ritrosia, ha raccolto in questo volume
+            <lb n="15"/>anche alcune composizioni, che a buon diritto avrebbe po-
+            <lb n="16"/>tuto lasciare da parte, come umili e informi tentativi.
+          </p>
+          <p facs="#id6_4biblPrato" xml:id="p6_4">
+            <lb n="17"/>Nè il lettore, nè il <persName ref="GC">Carducci</persName>, certo, si aspetteranno da
+            <lb n="18"/>noi un giudizio sopra poesia di data non recente, e che
+            <lb n="19"/>tutti conoscono. Diremo solo, che anche a non <choice><orig>esser</orig><reg>essere</reg></choice> critici
+            <lb n="20"/>di professione, <seg>si segue con grande interesse in questo vo-
+            <lb n="21" break="no"/>lume l'evoluzione dell'ingegno del poeta e il progresso con-
+            <lb n="22" break="no"/>tinuo della forma.</seg>
+          </p>
+          <p facs="#id6_5biblPrato" xml:id="p6_5">
+            <lb n="23"/>La <hi rend="italic">Prefazione</hi> è una bella pagina autobiografica, alla
+            <lb n="24"/>quale non scema pregio il tono polemico che assume.
+          </p>
+        </div>
+        </body>
+      </text>
+      
+      <text xml:id="not"> <!--Estratti dalle notizie del volume 6, fascicolo 141-->
+        <body>
+        <div xml:id="notizie">
+          <pb n="7"/>
+          <cb n="2"/>
+          <head facs="#id7_1not" xml:id="p7_1">
+            <lb n="1"/><hi rend="head">NOTIZIE.</hi>
+          </head>
+          <p facs="#id7_2not" xml:id="p7_2">
+            <lb n="2"/>- A <placeName ref="#WA">Washington</placeName> <persName ref="GB">Giorgio Bancroft</persName> sta per pubblicare la sua « <bibl ref="#SSU">Sto-
+            <lb n="3" break="no"/>ria degli Stati Uniti</bibl> », che incominciò fino dal <date when="1825">1825</date>.
+            <lb n="4"/>(<bibl><publisher>Sunday Journal</publisher></bibl>)
+          </p>
+          <p facs="#id7_3not" xml:id="p7_3">
+          <lb n="5"/>- E' imminente la pubblicazione di un volumetto di versi di <persName ref="#AS">Swin-
+          <lb n="6" break="no"/>burne</persName>, tra i quali vi sarà anche un canto per il centenario di <persName ref="#WSL">Walter
+          <lb n="7"/>Savage Landor</persName>. (<bibl><publisher>Athenaeum</publisher></bibl>)
+          </p>
+        </div>
+        </body>
+      </text>
+      
+    </group>
+  </text>
+</TEI>
